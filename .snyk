@@ -1,0 +1,27 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.13.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:hoek:20180212':
+    - knex-migrator > ghost-ignition > bunyan-loggly > loggly > request > hawk > hoek:
+        patched: '2018-12-08T00:25:45.379Z'
+    - gscan > ghost-ignition > bunyan-loggly > loggly > request > hawk > hoek:
+        patched: '2018-12-08T00:25:45.379Z'
+    - gscan > ghost-ignition > bunyan-loggly > loggly > request > hawk > sntp > hoek:
+        patched: '2018-12-08T00:25:45.379Z'
+    - knex-migrator > ghost-ignition > bunyan-loggly > loggly > request > hawk > sntp > hoek:
+        patched: '2018-12-08T00:25:45.379Z'
+    - knex-migrator > ghost-ignition > bunyan-loggly > loggly > request > hawk > boom > hoek:
+        patched: '2018-12-08T00:25:45.379Z'
+    - gscan > ghost-ignition > bunyan-loggly > loggly > request > hawk > boom > hoek:
+        patched: '2018-12-08T00:25:45.379Z'
+    - gscan > ghost-ignition > bunyan-loggly > loggly > request > hawk > cryptiles > boom > hoek:
+        patched: '2018-12-08T00:25:45.379Z'
+    - knex-migrator > ghost-ignition > bunyan-loggly > loggly > request > hawk > cryptiles > boom > hoek:
+        patched: '2018-12-08T00:25:45.379Z'
+  'npm:tunnel-agent:20170305':
+    - gscan > ghost-ignition > bunyan-loggly > loggly > request > tunnel-agent:
+        patched: '2018-12-08T00:25:45.379Z'
+    - knex-migrator > ghost-ignition > bunyan-loggly > loggly > request > tunnel-agent:
+        patched: '2018-12-08T00:25:45.379Z'
