@@ -1,0 +1,48 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.14.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-567746:
+    - lodash:
+        patched: '2020-05-01T04:09:12.392Z'
+    - amperize > lodash:
+        patched: '2020-05-01T04:09:12.392Z'
+    - analytics-node > lodash:
+        patched: '2020-05-01T04:09:12.392Z'
+    - archiver > lodash:
+        patched: '2020-05-01T04:09:12.392Z'
+    - bookshelf > lodash:
+        patched: '2020-05-01T04:09:12.392Z'
+    - ghost-gql > lodash:
+        patched: '2020-05-01T04:09:12.392Z'
+    - ghost-ignition > lodash:
+        patched: '2020-05-01T04:09:12.392Z'
+    - gscan > lodash:
+        patched: '2020-05-01T04:09:12.392Z'
+    - knex > lodash:
+        patched: '2020-05-01T04:09:12.392Z'
+    - knex-migrator > lodash:
+        patched: '2020-05-01T04:09:12.392Z'
+    - amperize > async > lodash:
+        patched: '2020-05-01T04:09:12.392Z'
+    - amperize > nock > lodash:
+        patched: '2020-05-01T04:09:12.392Z'
+    - archiver > archiver-utils > lodash:
+        patched: '2020-05-01T04:09:12.392Z'
+    - archiver > async > lodash:
+        patched: '2020-05-01T04:09:12.392Z'
+    - archiver > zip-stream > lodash:
+        patched: '2020-05-01T04:09:12.392Z'
+    - brute-knex > knex > lodash:
+        patched: '2020-05-01T04:09:12.392Z'
+    - gscan > ghost-ignition > lodash:
+        patched: '2020-05-01T04:09:12.392Z'
+    - knex-migrator > ghost-ignition > lodash:
+        patched: '2020-05-01T04:09:12.392Z'
+    - knex-migrator > knex > lodash:
+        patched: '2020-05-01T04:09:12.392Z'
+    - archiver > zip-stream > archiver-utils > lodash:
+        patched: '2020-05-01T04:09:12.392Z'
+    - brute-knex > lodash:
+        patched: '2020-05-01T04:09:12.392Z'
