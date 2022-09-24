@@ -1,0 +1,163 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.25.0
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:debug:20170905':
+    - express > finalhandler > debug:
+        patched: '2022-09-24T21:36:20.025Z'
+    - brute-knex > express > debug:
+        patched: '2022-09-24T21:36:20.025Z'
+    - brute-knex > express > finalhandler > debug:
+        patched: '2022-09-24T21:36:20.025Z'
+    - brute-knex > express > send > debug:
+        patched: '2022-09-24T21:36:20.025Z'
+    - brute-knex > express > serve-static > send > debug:
+        patched: '2022-09-24T21:36:20.025Z'
+    - superagent > debug:
+        patched: '2022-09-24T21:36:20.025Z'
+    - analytics-node > debug:
+        patched: '2022-09-24T21:36:20.025Z'
+    - ghost-ignition > debug:
+        patched: '2022-09-24T21:36:20.025Z'
+    - knex > debug:
+        patched: '2022-09-24T21:36:20.025Z'
+    - knex-migrator > debug:
+        patched: '2022-09-24T21:36:20.025Z'
+    - oauth2orize > debug:
+        patched: '2022-09-24T21:36:20.025Z'
+    - amperize > nock > debug:
+        patched: '2022-09-24T21:36:20.025Z'
+    - analytics-node > superagent > debug:
+        patched: '2022-09-24T21:36:20.025Z'
+    - gscan > ghost-ignition > debug:
+        patched: '2022-09-24T21:36:20.025Z'
+    - knex-migrator > ghost-ignition > debug:
+        patched: '2022-09-24T21:36:20.025Z'
+    - knex-migrator > knex > debug:
+        patched: '2022-09-24T21:36:20.025Z'
+  'npm:extend:20180424':
+    - superagent > extend:
+        patched: '2022-09-24T21:36:20.025Z'
+    - analytics-node > superagent > extend:
+        patched: '2022-09-24T21:36:20.025Z'
+    - knex > liftoff > extend:
+        patched: '2022-09-24T21:36:20.025Z'
+    - knex-migrator > knex > liftoff > extend:
+        patched: '2022-09-24T21:36:20.025Z'
+    - ghost-ignition > bunyan-loggly > loggly > request > extend:
+        patched: '2022-09-24T21:36:20.025Z'
+    - gscan > ghost-ignition > bunyan-loggly > loggly > request > extend:
+        patched: '2022-09-24T21:36:20.025Z'
+    - knex-migrator > ghost-ignition > bunyan-loggly > loggly > request > extend:
+        patched: '2022-09-24T21:36:20.025Z'
+  'npm:hoek:20180212':
+    - ghost-ignition > bunyan-loggly > loggly > request > hawk > hoek:
+        patched: '2022-09-24T21:36:20.025Z'
+    - ghost-ignition > bunyan-loggly > loggly > request > hawk > boom > hoek:
+        patched: '2022-09-24T21:36:20.025Z'
+    - ghost-ignition > bunyan-loggly > loggly > request > hawk > sntp > hoek:
+        patched: '2022-09-24T21:36:20.025Z'
+    - gscan > ghost-ignition > bunyan-loggly > loggly > request > hawk > hoek:
+        patched: '2022-09-24T21:36:20.025Z'
+    - knex-migrator > ghost-ignition > bunyan-loggly > loggly > request > hawk > hoek:
+        patched: '2022-09-24T21:36:20.025Z'
+    - ghost-ignition > bunyan-loggly > loggly > request > hawk > cryptiles > boom > hoek:
+        patched: '2022-09-24T21:36:20.025Z'
+    - gscan > ghost-ignition > bunyan-loggly > loggly > request > hawk > boom > hoek:
+        patched: '2022-09-24T21:36:20.025Z'
+    - knex-migrator > ghost-ignition > bunyan-loggly > loggly > request > hawk > boom > hoek:
+        patched: '2022-09-24T21:36:20.025Z'
+    - gscan > ghost-ignition > bunyan-loggly > loggly > request > hawk > sntp > hoek:
+        patched: '2022-09-24T21:36:20.025Z'
+    - knex-migrator > ghost-ignition > bunyan-loggly > loggly > request > hawk > sntp > hoek:
+        patched: '2022-09-24T21:36:20.025Z'
+    - gscan > ghost-ignition > bunyan-loggly > loggly > request > hawk > cryptiles > boom > hoek:
+        patched: '2022-09-24T21:36:20.025Z'
+    - knex-migrator > ghost-ignition > bunyan-loggly > loggly > request > hawk > cryptiles > boom > hoek:
+        patched: '2022-09-24T21:36:20.025Z'
+  SNYK-JS-LODASH-567746:
+    - amperize > lodash:
+        patched: '2022-09-24T21:36:20.025Z'
+    - analytics-node > lodash:
+        patched: '2022-09-24T21:36:20.025Z'
+    - archiver > lodash:
+        patched: '2022-09-24T21:36:20.025Z'
+    - bookshelf > lodash:
+        patched: '2022-09-24T21:36:20.025Z'
+    - ghost-gql > lodash:
+        patched: '2022-09-24T21:36:20.025Z'
+    - ghost-ignition > lodash:
+        patched: '2022-09-24T21:36:20.025Z'
+    - knex > lodash:
+        patched: '2022-09-24T21:36:20.025Z'
+    - knex-migrator > lodash:
+        patched: '2022-09-24T21:36:20.025Z'
+    - amperize > async > lodash:
+        patched: '2022-09-24T21:36:20.025Z'
+    - amperize > nock > lodash:
+        patched: '2022-09-24T21:36:20.025Z'
+    - archiver > archiver-utils > lodash:
+        patched: '2022-09-24T21:36:20.025Z'
+    - archiver > async > lodash:
+        patched: '2022-09-24T21:36:20.025Z'
+    - archiver > zip-stream > lodash:
+        patched: '2022-09-24T21:36:20.025Z'
+    - gscan > ghost-ignition > lodash:
+        patched: '2022-09-24T21:36:20.025Z'
+    - knex-migrator > ghost-ignition > lodash:
+        patched: '2022-09-24T21:36:20.025Z'
+    - knex-migrator > knex > lodash:
+        patched: '2022-09-24T21:36:20.025Z'
+    - archiver > zip-stream > archiver-utils > lodash:
+        patched: '2022-09-24T21:36:20.025Z'
+  'npm:mime:20170907':
+    - brute-knex > express > send > mime:
+        patched: '2022-09-24T21:36:20.025Z'
+    - brute-knex > express > serve-static > send > mime:
+        patched: '2022-09-24T21:36:20.025Z'
+  'npm:moment:20170905':
+    - ghost-ignition > moment:
+        patched: '2022-09-24T21:36:20.025Z'
+    - ghost-storage-base > moment:
+        patched: '2022-09-24T21:36:20.025Z'
+    - moment-timezone > moment:
+        patched: '2022-09-24T21:36:20.025Z'
+    - gscan > ghost-ignition > moment:
+        patched: '2022-09-24T21:36:20.025Z'
+    - knex-migrator > ghost-ignition > moment:
+        patched: '2022-09-24T21:36:20.025Z'
+  'npm:ms:20170412':
+    - brute-knex > express > serve-static > send > ms:
+        patched: '2022-09-24T21:36:20.025Z'
+    - brute-knex > express > debug > ms:
+        patched: '2022-09-24T21:36:20.025Z'
+    - brute-knex > express > send > ms:
+        patched: '2022-09-24T21:36:20.025Z'
+    - brute-knex > express > finalhandler > debug > ms:
+        patched: '2022-09-24T21:36:20.025Z'
+    - brute-knex > express > send > debug > ms:
+        patched: '2022-09-24T21:36:20.025Z'
+    - brute-knex > express > serve-static > send > debug > ms:
+        patched: '2022-09-24T21:36:20.025Z'
+  'npm:stringstream:20180511':
+    - ghost-ignition > bunyan-loggly > loggly > request > stringstream:
+        patched: '2022-09-24T21:36:20.025Z'
+    - gscan > ghost-ignition > bunyan-loggly > loggly > request > stringstream:
+        patched: '2022-09-24T21:36:20.025Z'
+    - knex-migrator > ghost-ignition > bunyan-loggly > loggly > request > stringstream:
+        patched: '2022-09-24T21:36:20.025Z'
+  'npm:tough-cookie:20170905':
+    - ghost-ignition > bunyan-loggly > loggly > request > tough-cookie:
+        patched: '2022-09-24T21:36:20.025Z'
+    - gscan > ghost-ignition > bunyan-loggly > loggly > request > tough-cookie:
+        patched: '2022-09-24T21:36:20.025Z'
+    - knex-migrator > ghost-ignition > bunyan-loggly > loggly > request > tough-cookie:
+        patched: '2022-09-24T21:36:20.025Z'
+  'npm:tunnel-agent:20170305':
+    - ghost-ignition > bunyan-loggly > loggly > request > tunnel-agent:
+        patched: '2022-09-24T21:36:20.025Z'
+    - gscan > ghost-ignition > bunyan-loggly > loggly > request > tunnel-agent:
+        patched: '2022-09-24T21:36:20.025Z'
+    - knex-migrator > ghost-ignition > bunyan-loggly > loggly > request > tunnel-agent:
+        patched: '2022-09-24T21:36:20.025Z'
