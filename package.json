@@ -54,7 +54,7 @@
     "ghost-storage-base": "0.0.1",
     "glob": "5.0.15",
     "got": "7.1.0",
-    "gscan": "1.2.0",
+    "gscan": "4.39.3",
     "html-to-text": "3.3.0",
     "image-size": "0.6.1",
     "intl": "1.2.5",
@@ -88,7 +88,7 @@
     "superagent": "3.6.0",
     "unidecode": "0.1.8",
     "uuid": "3.1.0",
-    "validator": "6.3.0",
+    "validator": "13.15.22",
     "xml": "1.0.1"
   },
   "optionalDependencies": {
